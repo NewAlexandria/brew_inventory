@@ -1,3 +1,12 @@
 #!/usr/bin/env ruby
 
 require "brew_inventory"
+
+class BrewInv
+  class << self
+    include BrewInventory
+  end
+end
+
+puts BrewInv.inventory
+
