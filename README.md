@@ -2,6 +2,9 @@
 
 A ruby gem that digs through the brew dependency tree, in order to give a list of the main packages installed.  Useful for configuation portability.
 
+Want a quick copypasta code for `irb` to get your brew packages?  [Use this.](https://gist.github.com/NewAlexandria/b0d948a8f7fe0e35223b)
+
+
 ## Installation
 
 Add this line to your application's Gemfile:
