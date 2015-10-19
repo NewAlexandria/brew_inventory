@@ -9,4 +9,5 @@ class BrewInv
 end
 
 puts BrewInv.inventory
+File.open('apps_brew.txt', 'w') {|f| f.write BrewInv.inventory.join("\n") }
 
